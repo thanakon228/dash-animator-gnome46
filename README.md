@@ -4,6 +4,8 @@
 [![License: GPL-2.0-or-later](https://img.shields.io/badge/License-GPL--2.0--or--later-blue.svg)](LICENSE)
 [![Requires Dash to Dock](https://img.shields.io/badge/requires-Dash%20to%20Dock-success)](https://extensions.gnome.org/extension/307/dash-to-dock/)
 
+🌐 **English** · [ไทย](README.th.md)
+
 A GNOME Shell extension that **animates the icons of [Dash to Dock](https://github.com/micheleg/dash-to-dock)** — icons magnify and "fan out" under the cursor as you move along the dock, macOS-style.
 
 This is a port of [**icedman/dash-animator**](https://github.com/icedman/dash-animator) (which targeted GNOME 40–43) to **GNOME 45/46**, where extensions moved to ES modules and several Clutter APIs were removed. All credit for the original animation logic goes to [**icedman**](https://github.com/icedman); this repo only does the porting work.
@@ -86,4 +88,4 @@ journalctl --user -b -o cat | grep "dash-animator:" | tail
 
 ---
 
-🇹🇭 **หมายเหตุ (ภาษาไทย):** extension นี้ทำให้ไอคอนบน Dash to Dock เด้ง/ขยายตามเมาส์ (สไตล์ macOS) เป็นการพอร์ตของ icedman/dash-animator ให้รันบน GNOME 46 — ต้องเปิด Dash to Dock อยู่ก่อน ติดตั้งตามขั้นตอนด้านบน แล้วกด `Alt`+`F2` → `r` เพื่อรีโหลด shell อยากได้ README ฉบับภาษาไทยเต็ม บอกได้เลย
+🇹🇭 อ่านฉบับภาษาไทยเต็มได้ที่ [README.th.md](README.th.md)
